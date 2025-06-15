@@ -1,0 +1,11 @@
+server:
+  port: 8080
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 3000
+        readTimeout: 3000
+vehicle:
+  service:
+    url: http://localhost:8081
