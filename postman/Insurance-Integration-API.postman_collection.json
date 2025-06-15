@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "e6d4db29-c285-4c5b-8b79-4267a69638d6",
+		"name": "Insurance Integration API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10439365"
+	},
+	"item": [
+		{
+			"name": "Get Vehicle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/vehicles/ABC123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"vehicles",
+						"ABC123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Insurances",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/insurances/1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"insurances",
+						"1234"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FF4J Console get features",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/ff4j/features",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"ff4j",
+						"features"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "enable DISCOUNT_CAMPAIGN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/ff4j/enable/DISCOUNT_CAMPAIGN",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"ff4j",
+						"enable",
+						"DISCOUNT_CAMPAIGN"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "disable DISCOUNT_CAMPAIG",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/admin/ff4j/disable/DISCOUNT_CAMPAIGN",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"ff4j",
+						"disable",
+						"DISCOUNT_CAMPAIGN"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
